@@ -3,11 +3,13 @@ body{
 }
 
 #body-header{
-    height: 65vh;
-	background-image: url("resume1.jpg");
-	background-size: cover;
+    height: 70vh;
+	background-image: url("flower2.jpg");
+/*	background-size: cover;*/
+    background-size: cover;
+/*    background-repeat: no-repeat;*/
 	background-position: center;
-    opacity: 0.8;
+/*    opacity: 0.9;*/
     background-attachment: fixed;
 }
 
@@ -48,13 +50,13 @@ body{
 }
 
 #name{
-	color: black;
-/*	text-shadow: 3px 2px black;*/
+	color: grey;
+	text-shadow: 3px 2px black;
 	font-size: 65px;
 	letter-spacing: 0.2rem;
 	font-weight: 600;
 	margin-bottom: 0.5rem;
-/*	transition: color 1.2s;*/
+	transition: color 1.2s;
 }
 #name:hover{
 	color: white;
@@ -63,9 +65,9 @@ body{
 }
 
 .social-icon li i{
-	color: white;
+	color: grey;
 	padding: 8px;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	border-radius: 50%;
 }
 .social-icon li i:hover{
@@ -76,6 +78,7 @@ body{
 	height: auto;
 	width: 100%;
 	position: relative;
+/*	background-color: white;*/
 }
 
 #my-pic{
@@ -148,7 +151,6 @@ section:nth-child(2n + 1) {
     margin: 25px;
     box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
     overflow: hidden;
-/*    border: 2px solid black;*/
 }
 
 .skill-name span {
@@ -351,7 +353,6 @@ button:focus {
 }
 
 .m-blue{
-/*	font-weight: bolder;*/
     font-size: 500px;
 }
 .experience-designation{
@@ -437,11 +438,6 @@ button:focus {
     font-size: 30px;
 }
 
-.timeline-container{
-	border: solid 1px lightgray;
-	background-color: lightgray;
-}
-
 .experience-designation {
     font-size: 1.4rem;
 }
@@ -467,7 +463,7 @@ button:focus {
     line-height: 20px;
 }
 
-@media only screen and (max-width: 572px) {
+*@media only screen and (max-width: 400px) {
     
     .timeline-box {
         width: 100%;
@@ -478,9 +474,8 @@ button:focus {
         display: block;
     }
     
-    
     .nav-menu {
-        display: none;
+/*        display: none;*/
     } 
 }
 
